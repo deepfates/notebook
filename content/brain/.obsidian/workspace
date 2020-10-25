@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "401636e755b6f0c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "59c9f172848d0e49",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notebook.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eecf9cb85964c54e",
+    "type": "split",
+    "children": [
+      {
+        "id": "724a010120041ea1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c9fce3a49b32f69",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "32f1100134904c03",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "685406453ad02f53",
+    "type": "split",
+    "children": [
+      {
+        "id": "590fe08f8af1ef3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69fef193cee411ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notebook.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "notebook.md",
+    "projects.md",
+    "technologies for the automation of language.md",
+    "living notebook.md",
+    "listening-agency.md",
+    "brain.md",
+    "self-promotion.md",
+    "Deleuze Explainer.md",
+    "Untitled.md",
+    "augmented-intelligence.md"
+  ]
+}
