@@ -9,7 +9,7 @@ The point of this aesthetic is to activate the uncanny valley. It relies on the 
 By creating machinic assemblages of language and compiling them on our human minds, we create the opening for new, alien types of thought to occur. And the frisson of experiencing alien thought makes us aware of what it is to be a thinking __human__, rather than some sort of generic sentient being.
  
 ## Types of technologies for the automation of language
-### Text
+### [[Text synthesis]]
 **Extraction**
 	
 -	[[ebook-convert]] from Calibre - convert ebooks and pdfs to text 
