@@ -1,7 +1,9 @@
 ---
 title: "listening.agency"
+aliases: ["listening.agency"]
 ---
-**listening.agency** is a small webapp I designed for listening to podcasts with some chill music in the background.
+
+*A small webapp I designed for listening to podcasts, with some chill music in the background. Status: inactive.*
 
 It was sparked by the realization that I spent as much time looking for podcasts to listen to as actually listening to them. Despite all this surfing and swiping, eventually I end up putting the same dozen podcasts on my playlist every week, so I thought, why not just make a site that plays through them automatically?
 

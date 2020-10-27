@@ -8,8 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import { FaTwitter, FaInstagram } from "react-icons/fa"
 import Header from "./header"
+import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -33,15 +34,29 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        {/*        <footer
+        <footer
           style={{
-            marginTop: `2rem`,
+            paddingTop: "2rem",
+            marginTop: "2rem",
+            borderColor: `#000`,
+            borderTopStyle: `dotted`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>*/}
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            © {new Date().getFullYear()} Max Anton Brewer
+            <div>
+              <a
+                style={{ paddingRight: "1rem" }}
+                href="https://twitter.com/deepfates"
+              >
+                <FaTwitter />
+              </a>
+              <a href="https://instagram.com/deepfates">
+                <FaInstagram />
+              </a>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   )

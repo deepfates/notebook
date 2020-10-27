@@ -10,5 +10,7 @@
     "markdown-importer": true,
     "word-count": true,
     "custom-css": true
-  }
+  },
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }

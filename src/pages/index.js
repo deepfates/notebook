@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import { FaRegHandshake } from "react-icons/fa"
+import { GiSpellBook } from "react-icons/gi"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -8,14 +9,31 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi, I'm Max.</h1>
-    <p>
-      I'm a technologist and entrepreneur living in Albuquerque, New Mexico.
-    </p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <h1 style={{ textAlign: "center" }}>
+      Hi, I'm Max. <FaRegHandshake />
+    </h1>
+    <div style={{ display: "flex", flexDirection: "row" }}>
+      <div>
+        <p>
+          I'm a technologist and entrepreneur living in Albuquerque, New Mexico.
+        </p>
+        <p>
+          I co-founded <a href="https://organicbooks.net">Organic Books</a>. I'm
+          also a writer, designer and coder.
+        </p>
+        <p>
+          The main thing to do here, currently, is to look at my{" "}
+          <Link to="/notebook/" as="h2">
+            <GiSpellBook /> notebook.
+          </Link>{" "}
+        </p>
+      </div>
+      <div style={{ width: `30vw`, marginLeft: `1.45rem` }}>
+        <Image />
+      </div>
     </div>
-    <Link to="/notebook/">Take a look at my notebook</Link> <br />
+
+    <br />
   </Layout>
 )
 

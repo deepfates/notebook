@@ -72,19 +72,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "lastOpenFiles": [
     "notebook.md",
+    "Invisible Movies.md",
     "projects.md",
+    "Smooth Spaces.md",
     "technologies for the automation of language.md",
-    "living notebook.md",
+    "Glitchcraft.md",
     "listening-agency.md",
-    "brain.md",
-    "self-promotion.md",
-    "Deleuze Explainer.md",
-    "Untitled.md",
-    "augmented-intelligence.md"
+    "SCIOPS.md",
+    "SIGNAL.md",
+    "Markov chain.md"
   ]
 }
