@@ -1,6 +1,7 @@
 ---
-title: "SIGNAL: a book of secrets"
-aliases: ["SIGNAL"]
+title: 'SIGNAL: a book of secrets'
+aliases: [SIGNAL]
+modified: 2020-11-02T10:14:27-07:00
 ---
 
 *A book I made from other books, ca. 2014. Status: finished.*
@@ -11,4 +12,4 @@ SIGNAL is a dictionary-dream, a catalog for an ethereal Library, a virus of lang
 
 Built using bibliomancy and sortilege while encamped atop a remote mountain. Known to have an indelible effect on the mind of the reader.
 
-You can download a PDF copy [here](https://github.com/permafuture/permafuture.github.io/blob/master/images/signal-a-book-of-secrets.pdf). Best read in physical format. To print, set full-page duplexing.
+You can download a PDF copy [here](signal-a-book-of-secrets.pdf). Best read in physical format. To print, set full-page duplexing.
