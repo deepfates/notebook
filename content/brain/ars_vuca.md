@@ -1,3 +1,9 @@
+---
+modified: 2020-10-31T14:03:33-06:00
+---
+
+# ars_vuca
+
 *A Twitter bot I built in 2016. Status: active. Find her at* [twitter.com/ars_vuca](https://twitter.com/ars_vuca)
 
 *Built with [[markovify]] and [[tweepy]]*

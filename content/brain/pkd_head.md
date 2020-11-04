@@ -1,3 +1,9 @@
+---
+modified: 2020-10-31T14:03:43-06:00
+---
+
+# pkd_head
+
 *A Twitter bot I built in 2016. Status: active. Find him at* [twitter.com/pkd_head](https://twitter.com/pkd_head)
 
 *Built with [[markovify]] and [[tweepy]]*
