@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaRegHandshake } from "react-icons/fa"
 import { GiSpellBook } from "react-icons/gi"
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -10,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1 style={{ textAlign: "center" }}>
-      Hi, I'm Max. <FaRegHandshake />
+      This is the website of Max Anton Brewer.
     </h1>
     <div style={{ display: "flex", flexDirection: "row" }}>
       <div>
