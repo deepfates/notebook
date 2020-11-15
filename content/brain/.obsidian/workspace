@@ -4,15 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "59c9f172848d0e49",
+        "id": "41ea0ca7937f537d",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Text synthesis.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -63,9 +60,7 @@
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {
-                "file": "Text synthesis.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -75,15 +70,15 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "Untitled.md",
+    "Interface design.md",
+    "Novice.md",
+    "Augmented Intelligence.md",
+    "Deleuze Explainer.md",
+    "projects.md",
+    "notebook.md",
     "Text synthesis.md",
     "technologies for the automation of language.md",
-    "Smooth Spaces.md",
-    "Deleuze Explainer.md",
-    "notebook.md",
-    "Invisible Movies.md",
-    "projects.md",
-    "Glitchcraft.md",
-    "listening-agency.md",
-    "SCIOPS.md"
+    "Smooth Spaces.md"
   ]
 }

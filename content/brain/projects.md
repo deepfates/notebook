@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 ## Writing
-- [[Augmented Intelligence]] (newsletter, active)
+- [[Robot Face]] (newsletter, active)
 - [[SCIOPS]]  (newsletter, inactive)
 - [[SIGNAL]]  (magic book, published)
 -  SIGNAL (novel, unpublished)
