@@ -18,14 +18,17 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "max.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 700, grayscale: true) {
+          fluid(
+            fit: CONTAIN
+            duotone: { highlight: "#56b0ca", shadow: "#090909" }
+          ) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
       colorImage: file(relativePath: { eq: "max.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 700, grayscale: false) {
+          fluid(duotone: { highlight: "#56b0ca", shadow: "#090909" }) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -37,12 +40,7 @@ const Image = () => {
     return <div>Picture not found</div>
   }
 
-  return (
-    <Img
-      fluid={data.placeholderImage.childImageSharp.fluid}
-      durationFadeIn="2000"
-    />
-  )
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default Image

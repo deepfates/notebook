@@ -3,7 +3,8 @@ html {
   overflow-y: scroll;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #090909;
+  background-color: #f8f8f8;
   word-wrap: break-word;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -44,6 +45,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #56b0ca;
 }
 a:active,
 a:hover {

@@ -5,6 +5,7 @@ module.exports = {
     author: `@deepfates`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -36,8 +37,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#e69340`,
-        theme_color: `#e69340`,
+        background_color: `#DBA740`,
+        theme_color: `#DBA740`,
         display: `minimal-ui`,
         icon: `src/images/deepfates.jpg`, // This path is relative to the root of the site.
       },

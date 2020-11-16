@@ -2,25 +2,17 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { GiSpellBook } from "react-icons/gi"
-
+import styled from "styled-components"
+const Navbar = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-right: 2rem;
+`
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      borderColor: `#000`,
-      borderBottomStyle: `dotted`,
-      marginBottom: `1.45rem`,
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "space-between",
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `0.175rem 1.0875rem`,
-      }}
-    >
+  <Navbar>
+    <div>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -32,17 +24,12 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <div
-      style={{
-        margin: `0 auto`,
-        padding: `0.175rem 1.0875rem`,
-      }}
-    >
+    <div>
       <Link to="/notebook/">
         <GiSpellBook size="1.45rem" />
       </Link>{" "}
     </div>
-  </header>
+  </Navbar>
 )
 
 Header.propTypes = {
