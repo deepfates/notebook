@@ -4,7 +4,7 @@ html {
 }
 body {
   color: #090909;
-  background-color: #f8f8f8;
+  background-color: #56b0ca;
   word-wrap: break-word;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -45,7 +45,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #56b0ca;
+  color: #f8f8f8;
 }
 a:active,
 a:hover {
@@ -65,6 +65,7 @@ dfn {
   font-style: italic;
 }
 h1 {
+  color: #f8f8f8;
 }
 mark {
   background-color: #ff0;

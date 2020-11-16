@@ -13,37 +13,38 @@ const IndexGrid = styled.div`
     "pre-author author"
     "artwork  artwork"
     "pre-content content";
-  grid-template-columns: 28.89%;
-  grid-template-rows: 11.72% 6.35%;
+  grid-template-columns: 28.89vw;
+  grid-template-rows: auto 6.35vh;
   width: 100%;
+  height: 100%;
 `
 
 const PreTitle = styled.div`
-  height: 11.72%;
-  width: 100 - 28.89%;
   grid-area: pre-title;
 `
 const Title = styled.div`
-  height: 11.72%;
-  width: 100 - 28.89%;
-  align-items: start;
   display: flex;
+  align-items: end;
   grid-area: title;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding-top: 2rem;
+  height: 100%;
 `
 const PreAuthor = styled.div`
-  height: 6.35%;
-  width: 28.89%;
   grid-area: pre-author;
+  border-bottom: 1px solid;
+  border-color: #f8f8f8;
 `
 const Author = styled.div`
-  height: 6.35%;
-  width: 100 - 28.89%;
   align-items: center;
   display: flex;
   grid-area: author;
+  border-bottom: 1px solid;
+  border-color: #f8f8f8;
 `
 const Artwork = styled.div`
-  height: 100% - 10.34 - 11.72 - 6.35;
   overflow: hidden;
   position: relative;
   width: 100vw;
@@ -51,19 +52,17 @@ const Artwork = styled.div`
   height: 100vh;
 `
 const PreContent = styled.div`
-  height: 6.35%;
-  width: 28.89%;
   grid-area: pre-content;
 `
 const Content = styled.div`
-  width: 100 - 28.89%;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
   grid-area: content;
-  height: 100vh;
   padding-right: 2rem;
+  padding-top: 10.34vh;
+  padding-bottom: 10.34vh;
 `
 const IndexPage = () => (
   <Layout>
@@ -71,7 +70,9 @@ const IndexPage = () => (
       <SEO title="Home" />
       <PreTitle />
       <Title>
-        <h1>A personal website.</h1>
+        <h1 style={{ marginBottom: 0 }}>
+          A personal website, designed and coded by hand.
+        </h1>
       </Title>
       <PreAuthor />
       <Author>

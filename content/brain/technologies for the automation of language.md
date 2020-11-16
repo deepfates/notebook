@@ -4,28 +4,28 @@ title: "Technologies for the automation of language"
 
 I have been developing an aesthetic and a toolkit around the technological manipulation of information. Keeping track of the tools for this will make it easier to combine them.
 
-The point of this aesthetic is to activate the uncanny valley. It relies on the hack of the human brain of the perception of the Other and the dialectic of observation. The brain that processes the language is changed in some way by the instructions therein. 
+The point of this aesthetic is to activate the uncanny valley. It relies on the hack of the human brain of the perception of the Other and the dialectic of observation. The brain that processes the language is changed in some way by the instructions therein.
 
 By creating machinic assemblages of language and compiling them on our human minds, we create the opening for new, alien types of thought to occur. And the frisson of experiencing alien thought makes us aware of what it is to be a thinking __human__, rather than some sort of generic sentient being.
- 
+
 ## Types of technologies for the automation of language
 ### [[Text synthesis]]
 **Extraction**
-	
--	[[ebook-convert]] from Calibre - convert ebooks and pdfs to text 
+
+-	[[ebook-convert]] from Calibre - convert ebooks and pdfs to text
 -	[[spaCy]] - get structured information from natural language
 		Part of speech, grammatical dependencies, entity recognition (proper nouns etc), word and document vectors, coreference resolution
-		
+
 **Analysis**
-	
+
 -	[[textacy]] - organize and analyze large corpora in spaCy form
-		Keyword analysis, text classification, sentiment analysis, topic modeling 
+		Keyword analysis, text classification, sentiment analysis, topic modeling
 -	[[sumy]] summarize a text by extracting the important sentences through various metrics
 -	[[Annoy]] approximate nearest neighbors, find similar objects in high-dimensional space
-		Useful, for instance, to compare sentences with vectors from spaCy as in [[Deleuze Explainer]] 
-		
+		Useful, for instance, to compare sentences with vectors from spaCy as in [[Deleuze Explainer]]
+
 **Generation**
-	
+
 -	[[markovify]] - simple statistical generation of text. humorous quality
 -	[[char-RNN]] - lightweight neural-net generation of text. poor quality
 -	[[GPT-2]] - heavyweight neural-net generation of text. high quality
@@ -53,13 +53,14 @@ By creating machinic assemblages of language and compiling them on our human min
 -	[[ffmpeg]] - encoding and decoding all audio, image and video tracks
 -	[[videogrep]] - search and supercut videos through subtitles
 -	[[videodigest]] - summarize a video by running sumy over its subtitle track
--	[[scenescoop]] - find similar scenes in videos by semantic analysis of the objects in them 
+-	[[scenescoop]] - find similar scenes in videos by semantic analysis of the objects in them
 -	[[do the mosh]] - datamosh video in python. from happyhorseskull https://github.com/happyhorseskull/you-can-datamosh-on-linux
 
 ### Web
 -	[[Mycroft]] - the messagebus and built-in voice capabilities make it an appealing platform for human simulation
--	[[GatsbyJS]] - generate static websites from markdown files and templates 
-		**Twitter**
+-	[[GatsbyJS]] - generate static websites from markdown files and templates
+
+**Twitter**
 -	[[tweepy]] - automate Twitter accounts: tweet, follow, retweet, favorite, reply
 -	[[twitter-scraper]] - acquire large amounts of twitter data fast and easy
 -	[[twurl]] - authenticate an app as a particular twitter user, to get auth keys

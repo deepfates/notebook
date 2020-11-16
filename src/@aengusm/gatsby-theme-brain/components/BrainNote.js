@@ -8,30 +8,26 @@ const BrainGrid = styled.div`
   grid-template-areas:
     "pre-title title"
     "pre-content content";
-  grid-template-columns: 28.89%;
-  grid-template-rows: 11.72%;
+  grid-template-columns: 28.89vw;
+  grid-template-rows: 11.72vh;
   width: 100%;
 `
 const PreTitle = styled.div`
-  height: 11.72%;
-  width: 100 - 28.89%;
   grid-area: pre-title;
 `
 const Title = styled.div`
-  height: 11.72%;
-  width: 100 - 28.89%;
-  align-items: start;
   display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
   grid-area: title;
 `
 
 const PreContent = styled.div`
-  height: 6.35%;
-  width: 28.89%;
   grid-area: pre-content;
 `
 const Content = styled.div`
-  width: 100 - 28.89%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -88,7 +84,7 @@ const BrainNote = ({ note }) => {
         <BrainGrid>
           <PreTitle />
           <Title>
-            <h1>{note.title}</h1>
+            <h1 style={{marginBottom:0}}>{note.title}</h1>
           </Title>
           <PreContent />
           <Content>

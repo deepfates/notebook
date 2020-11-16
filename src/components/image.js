@@ -16,11 +16,11 @@ import Img from "gatsby-image"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "max.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "max-no-bg.png" }) {
         childImageSharp {
           fluid(
             fit: CONTAIN
-            duotone: { highlight: "#56b0ca", shadow: "#090909" }
+            duotone: { highlight: "#f8f8f8", shadow: "#090909" }
           ) {
             ...GatsbyImageSharpFluid_tracedSVG
           }

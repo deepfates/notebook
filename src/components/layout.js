@@ -20,24 +20,25 @@ const Grid = styled.div`
     "logo head"
     "children children"
     "foot-links foot";
-  grid-template-columns: 28.89%;
-  grid-template-rows: 10.34% auto 10.34%;
+  grid-template-columns: 28.89vw;
+  grid-template-rows: 10.34vh auto 10.34vh;
   margin: 0 auto;
   width: 100%;
-  height: 100vh;
 `
 const Logo = styled.div`
-  align-items: center;
+  display: flex;
+  align-items: baseline;
   justify-content: center;
-  width: 28.89%;
   grid-area: logo;
-  padding-left: 2rem;
+  border-bottom: 1px solid;
+  border-color: #f8f8f8;
 `
 const Head = styled.div`
   grid-area: head;
+  border-bottom: 1px solid;
+  border-color: #f8f8f8;
 `
 const Children = styled.div`
-  height: 100 - 10.34%;
   grid-area: children;
 `
 const FootLinks = styled.div`
@@ -45,11 +46,15 @@ const FootLinks = styled.div`
   align-items: center;
   justify-content: space-evenly;
   grid-area: foot-links;
+  border-top: 1px solid;
+  border-color: #f8f8f8;
 `
 const Foot = styled.div`
   display: flex;
   align-items: center;
   grid-area: foot;
+  border-top: 1px solid;
+  border-color: #f8f8f8;
 `
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -65,7 +70,7 @@ const Layout = ({ children }) => {
   return (
     <Grid>
       <Logo>
-      <img src="/deepfates.svg" alt="logo" />
+        <img src="/deepfates.svg" alt="logo" height="80%" />
       </Logo>
       <Head>
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
