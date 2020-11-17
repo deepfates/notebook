@@ -1,10 +1,17 @@
 import React from "react"
+import styled from "styled-components"
+
+const Copyright = styled.div`
+  display: "flex"
+  justify-content: space-between;
+  font-size: 0.715rem
+`
 
 const Footer = () => (
   <footer>
-    <div style={{ display: "flex", justifyContent: "space-between" }}>
+    <Copyright>
       <i>© {new Date().getFullYear()} Max Anton Brewer</i>
-    </div>
+    </Copyright>
   </footer>
 )
 

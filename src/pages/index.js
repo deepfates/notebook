@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { GiSpellBook } from "react-icons/gi"
+import { GiSpellBook, GiRobotAntennas } from "react-icons/gi"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -49,7 +49,7 @@ const Artwork = styled.div`
   position: relative;
   width: 100vw;
   grid-area: artwork;
-  height: 100vh;
+  max-height: 100vh;
 `
 const PreContent = styled.div`
   grid-area: pre-content;
@@ -63,6 +63,8 @@ const Content = styled.div`
   padding-right: 2rem;
   padding-top: 10.34vh;
   padding-bottom: 10.34vh;
+  max-width: 46ch;
+  text-align: justify;
 `
 const IndexPage = () => (
   <Layout>
@@ -84,17 +86,36 @@ const IndexPage = () => (
       <PreContent />
       <Content>
         <p>
-          I'm a technologist and entrepreneur living in Albuquerque, New Mexico.
+          I'm Max, aka <strong>@deepfates</strong>. I'm a technologist and
+          entrepreneur in Albuquerque, New Mexico. My background is in
+          whole-systems design and long-term thinking.
         </p>
         <p>
-          I co-founded <a href="https://organicbooks.net">Organic Books</a>. I'm
-          also a writer, designer and coder.
+          I co-founded <a href="https://organicbooks.net">Organic Books</a>, a
+          used-and-new bookstore in Nob Hill. I am a book person, in many senses
+          of the term.
         </p>
         <p>
-          The main thing to do here, currently, is to look at my{" "}
+          I also write, design, and code. I think a lot about intelligence,
+          language, computers and books. The main thing to do here is{" "}
+          <strong>
+            sign up to my newsletter about human-computer interfaces:{" "}
+            <a href="https://robotface.substack.com/">
+              <GiRobotAntennas />
+              Robot Face
+            </a>
+          </strong>
+        </p>
+        <p>
+          {" "}
+          You can also follow me on the bird site{" "}
+          <a href="https://twitter.com/deepfates">@deepfates</a>, or snoop
+          around my{" "}
           <Link to="/notebook/" as="h2">
-            <GiSpellBook /> notebook.
+            <GiSpellBook />
+            living notebook.
           </Link>{" "}
+          .
         </p>
       </Content>
     </IndexGrid>
