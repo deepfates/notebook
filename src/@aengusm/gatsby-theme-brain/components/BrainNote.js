@@ -34,6 +34,10 @@ const Content = styled.div`
   justify-content: center;
   grid-area: content;
   padding-right: 2em;
+  padding-top: 10.34vh;
+  padding-bottom: 10.34vh;
+  max-width: 46ch;
+  text-align: justify;
 `
 
 const BrainNote = ({ note }) => {
@@ -84,7 +88,7 @@ const BrainNote = ({ note }) => {
         <BrainGrid>
           <PreTitle />
           <Title>
-            <h1 style={{marginBottom:0}}>{note.title}</h1>
+            <h1 style={{ marginBottom: 0 }}>{note.title}</h1>
           </Title>
           <PreContent />
           <Content>
