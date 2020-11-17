@@ -36,7 +36,7 @@ const Content = styled.div`
   padding-right: 2em;
   padding-top: 10.34vh;
   padding-bottom: 10.34vh;
-  max-width: 46ch;
+  max-width: 58ch;
   text-align: justify;
 `
 
