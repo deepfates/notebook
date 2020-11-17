@@ -40,7 +40,7 @@ module.exports = {
         background_color: `#DBA740`,
         theme_color: `#DBA740`,
         display: `minimal-ui`,
-        icon: `/deepfates.svg`, // This path is relative to the root of the site.
+        icon: `static/deepfates.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
