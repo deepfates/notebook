@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { GiSpellBook, GiRobotAntennas } from "react-icons/gi"
+import { GiSpellBook, GiStabbedNote } from "react-icons/gi"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -101,7 +101,7 @@ const IndexPage = () => (
           <strong>
             sign up to my newsletter about human-computer interfaces:{" "}
             <a href="https://robotface.substack.com/">
-              <GiRobotAntennas />
+              <GiStabbedNote />
               Robot Face
             </a>
           </strong>

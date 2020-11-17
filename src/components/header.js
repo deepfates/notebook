@@ -1,17 +1,19 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { GiSpellBook, GiRobotAntennas } from "react-icons/gi"
+import { GiSpellBook, GiStabbedNote } from "react-icons/gi"
 import styled from "styled-components"
 const Navbar = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  padding-right: 2rem;
 `
-const Spacer = styled.div`
-  padding-left: 2rem;
+const Icons = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 39.2%;
 `
 
 const Header = ({ siteTitle }) => (
@@ -28,15 +30,14 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <Navbar>
+    <Icons>
       <Link to="/notebook/">
         <GiSpellBook size="1.45rem" />
       </Link>
-      <Spacer />
       <a href="https://robotface.substack.com/">
-        <GiRobotAntennas size="1.45rem" />
+        <GiStabbedNote size="1.45rem" />
       </a>
-    </Navbar>
+    </Icons>
   </Navbar>
 )
 

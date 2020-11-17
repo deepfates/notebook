@@ -1,5 +1,5 @@
 import React from "react"
-import { GiDoubleDiaphragm, GiRaven } from "react-icons/gi"
+import { GiPhotoCamera, GiRaven } from "react-icons/gi"
 
 const FooterLinks = () => (
   <div>
@@ -7,7 +7,7 @@ const FooterLinks = () => (
       <GiRaven />
     </a>
     <a href="https://instagram.com/deepfates">
-      <GiDoubleDiaphragm />
+      <GiPhotoCamera />
     </a>
   </div>
 )
