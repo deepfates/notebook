@@ -13,6 +13,8 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   font-size: 16pt;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 article,
 aside,
@@ -299,7 +301,6 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  overflow-wrap: break-word;
 }
 pre {
   margin-left: 0;
