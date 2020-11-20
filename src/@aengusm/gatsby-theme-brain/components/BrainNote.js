@@ -37,7 +37,6 @@ const Content = styled.div`
   padding-top: 10.34vh;
   padding-bottom: 10.34vh;
   max-width: 58ch;
-  text-align: justify;
 `
 
 const BrainNote = ({ note }) => {
