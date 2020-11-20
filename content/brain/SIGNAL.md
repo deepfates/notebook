@@ -10,6 +10,6 @@ modified: 2020-11-02T11:04:17-07:00
 
 SIGNAL is a dictionary-dream, a catalog for an ethereal Library, a virus of language. It may be read front to back or side to side.
 
-Built using bibliomancy and sortilege while encamped atop a remote mountain. Known to have an indelible effect on the mind of the reader.
+Built using bibliomancy and sortilege while encamped atop a remote mountain. Known to have an indelible effect on the mind of the  reader.
 
 You can download a PDF copy [here](/signal-a-book-of-secrets.pdf). 80MB. Best read in physical format. To print, set full-page duplexing.

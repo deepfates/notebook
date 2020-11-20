@@ -7,8 +7,11 @@ title: "Homepage design"
 My new homepage is at [deepfates.com](https://deepfates.com). It's built with Gatsby, the React-based static site generator I like to use.
 
 ## Engineering
-There's a plugin called gatsby-theme-brain that converts Obsidian-style [[double brackets]] into bidirectional links between pages. This is used
+
+- There's a plugin called gatsby-theme-brain that converts Obsidian-style [[double brackets]] into bidirectional links between pages. This is used to build the "Linked references" component in each notebook page.
 
 
-A grotesk font, like the Operating Manual for Spaceship Earth, for headers.
- - Open source Manrope?
+## Design
+- A grotesk font, like the Operating Manual for Spaceship Earth, for headers.
+ - Open source Manrope
+

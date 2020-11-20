@@ -3,7 +3,9 @@ title: "listening.agency"
 aliases: ["listening.agency"]
 ---
 
-*A small webapp I designed for listening to podcasts, with some chill music in the background. Status: inactive.*
+*A small webapp I designed for listening to podcastsand music at the same time. Status: operational.*
+
+SPACE PIRATE RADIO, at https://listening.agency, is a niche podcast player and vibe machine.
 
 It was sparked by the realization that I spent as much time looking for podcasts to listen to as actually listening to them. Despite all this surfing and swiping, eventually I end up putting the same dozen podcasts on my playlist every week, so I thought, why not just make a site that plays through them automatically?
 
@@ -23,3 +25,6 @@ But the thing should not be too customizable. It should still open automatically
 
 The point is to create an imaginary space in which you and your friends can hang out, atemporally. listening.agency locations should be imagined as the place where the podcasts are happening, and when recording a podcast, should be the place you imagine you're casting from.
 
+**Left Pod Commune**
+
+The podcast [[INTERGALACTIC RAILROAD]] gathered a network of similar podcasts called the Left Pod Commune. Together we updated the app to include the Left Pods and gave it a little IGRR branding.

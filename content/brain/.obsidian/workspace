@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "41ea0ca7937f537d",
+        "id": "878fe366d0f67ca9",
         "type": "leaf",
         "active": true,
         "state": {
@@ -37,7 +37,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -60,7 +65,13 @@
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {}
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
             }
           }
         ]
@@ -71,14 +82,14 @@
   },
   "lastOpenFiles": [
     "Untitled.md",
-    "Interface design.md",
-    "Novice.md",
-    "Augmented Intelligence.md",
-    "Deleuze Explainer.md",
-    "projects.md",
     "notebook.md",
+    "INTERGALACTIC RAILROAD.md",
+    "homepage design.md",
+    "JAMstack.md",
+    "wallpaper switching script.md",
+    "projects.md",
+    "listening-agency.md",
     "Text synthesis.md",
-    "technologies for the automation of language.md",
-    "Smooth Spaces.md"
+    "textacy.md"
   ]
 }

@@ -26,6 +26,7 @@ title: "Projects"
 - [[codeine]] (chop & dropper)
 - [[forgot2vec]] (Forgotten Realms word vectors)
 - [[legiblate]] (genre judger)
+- [[wallpaper switching script]]
 
 ## Sounds
 - [[Invisible Movies]]
