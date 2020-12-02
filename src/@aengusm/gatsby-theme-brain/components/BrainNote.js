@@ -11,6 +11,16 @@ const BrainGrid = styled.div`
   grid-template-columns: 28.89vw;
   grid-template-rows: 11.72vh;
   width: 100%;
+
+  article > p:first-child:first-letter {
+    float: left;
+    font-family: Manrope;
+    font-size: 4rem;
+    line-height: 1;
+    padding-top: .3 75rem;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-style: normal;
 `
 const PreTitle = styled.div`
   grid-area: pre-title;
@@ -26,7 +36,7 @@ const Title = styled.div`
 const PreContent = styled.div`
   grid-area: pre-content;
 `
-const Content = styled.div`
+const Content = styled.article`
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -37,6 +47,10 @@ const Content = styled.div`
   padding-top: 10.34vh;
   padding-bottom: 10.34vh;
   max-width: 58ch;
+  }
+`
+const Ref = styled.div`
+  font-size: 0.715rem;
 `
 
 const BrainNote = ({ note }) => {
@@ -53,10 +67,10 @@ const BrainNote = ({ note }) => {
 
     if (references.length > 0) {
       referenceBlock = (
-        <>
+        <Ref>
           <h2>Linked References</h2>
           <ul>{references}</ul>
-        </>
+        </Ref>
       )
     }
   }
