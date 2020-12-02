@@ -8,7 +8,7 @@ irvingTheme.googleFonts = [
     name: "Manrope",
     styles: ["700"],
   },
-  { name: "Lora", styles: ["500", "700"] },
+  { name: "Lora", styles: ["400", "700"] },
   { name: "Lora:ital", styles: ["500", "700"] },
 ]
 irvingTheme.headerFontFamily = ["Manrope", "sans-serif"]
