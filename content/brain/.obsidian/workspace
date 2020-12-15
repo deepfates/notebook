@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Berduck.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Berduck.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,15 +85,15 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "Berduck.md",
+    "projects.md",
+    "Novice.md",
+    "technologies for the automation of language.md",
+    "Untitled 1.md",
+    "INTERGALACTIC RAILROAD.md",
     "Untitled.md",
     "notebook.md",
-    "INTERGALACTIC RAILROAD.md",
     "homepage design.md",
-    "JAMstack.md",
-    "wallpaper switching script.md",
-    "projects.md",
-    "listening-agency.md",
-    "Text synthesis.md",
-    "textacy.md"
+    "JAMstack.md"
   ]
 }

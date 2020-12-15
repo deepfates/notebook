@@ -8,6 +8,7 @@ title: "Projects"
 -  SIGNAL (novel, unpublished)
 
 ##  Bots
+- [[Berduck]]
 - [[ars_vuca]] 
 - [[pkd_head]] 
 - [[Deleuze Explainer]] 

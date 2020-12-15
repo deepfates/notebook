@@ -18,7 +18,7 @@ Chatbots need a domain in which they live. A domain includes user intents and bo
 
 The difference between a novice and a personal assistant is that the novice asks questions. The PA is on a need-to-know status, taking direction from the executive, fulfilling small side quests so the executive can Focus on Thinking Big Thoughts. But thinking big thoughts is a whole different discipline from Planning and Executing Tasks. Wiki again:
 
-While reviewing, the observer also considers the "strategic" direction of the work, coming up with ideas for improvements and likely future problems to address. This is intended to free the driver to focus all of their attention on the "tactical" aspects of completing the current task, using the observer as a safety net and guide.
+>While reviewing, the observer also considers the "strategic" direction of the work, coming up with ideas for improvements and likely future problems to address. This is intended to free the driver to focus all of their attention on the "tactical" aspects of completing the current task, using the observer as a safety net and guide.
 
 If you had a little kid following you about your day (a very smart little kid), asking you to explain yourself, and taking copious notes (ooh, amanuensis, or anamnesis) and holding you accountable to the things you said you would do, wouldn't that help your day? If the kid was smart enough, or humble enough, to not get in the way? A little angel on your shoulder, an exosuperego. A cool head in the navigator's seat. "It looks like you're getting into an argument on Twitter. Is that what you want to feel right now?"
 
