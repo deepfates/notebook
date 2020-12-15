@@ -72,7 +72,7 @@ const IndexPage = () => (
       <PreTitle />
       <Title>
         <h1 style={{ marginBottom: 0 }}>
-          A personal website, designed and coded by hand.
+          The Presentation of Self in Internet Life
         </h1>
       </Title>
       <PreAuthor />
@@ -90,7 +90,7 @@ const IndexPage = () => (
           whole-systems design and long-term thinking.
         </p>
         <p>
-          I co-founded <a href="https://organicbooks.net">Organic Books</a>, a
+          I founded <a href="https://organicbooks.net">Organic Books</a>, a
           used-and-new bookstore in Nob Hill. I am a book person, in many senses
           of the term.
         </p>
@@ -106,15 +106,17 @@ const IndexPage = () => (
           </strong>
         </p>
         <p>
-          {" "}
-          You can also follow me on the bird site{" "}
-          <a href="https://twitter.com/deepfates">@deepfates</a>, or snoop
-          around my{" "}
-          <Link to="/notebook/" as="h2">
-            <GiSpellBook />
-            living notebook.
-          </Link>{" "}
-          .
+          <em>
+            {" "}
+            You can also follow me on the bird site{" "}
+            <a href="https://twitter.com/deepfates">@deepfates</a>, or snoop
+            around my{" "}
+            <Link to="/notebook/" as="h2">
+              <GiSpellBook />
+              living notebook.
+            </Link>{" "}
+            .
+          </em>
         </p>
       </Content>
     </IndexGrid>
