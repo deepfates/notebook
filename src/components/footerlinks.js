@@ -1,5 +1,5 @@
 import React from "react"
-import { GiPhotoCamera, GiRaven } from "react-icons/gi"
+import { FaTwitter, FaInstagram } from "react-icons/fa"
 import styled from "styled-components"
 
 const Icons = styled.div`
@@ -12,10 +12,10 @@ const Icons = styled.div`
 const FooterLinks = () => (
   <Icons>
     <a style={{ paddingRight: "1rem" }} href="https://twitter.com/deepfates">
-      <GiRaven size="1.45rem" />
+      <FaTwitter size="1.45rem" />
     </a>
     <a href="https://instagram.com/deepfates">
-      <GiPhotoCamera size="1.45rem" />
+      <FaInstagram size="1.45rem" />
     </a>
   </Icons>
 )
