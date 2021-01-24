@@ -3,7 +3,7 @@ title: "listening.agency"
 aliases: ["listening.agency"]
 ---
 
-*A small webapp I designed for listening to podcastsand music at the same time. Status: operational.*
+*A small webapp I designed for listening to podcastsand music at the same time. Status: inactive.*
 
 SPACE PIRATE RADIO, at https://listening.agency, is a niche podcast player and vibe machine.
 

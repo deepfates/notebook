@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "878fe366d0f67ca9",
+        "id": "8d0692699923c12a",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Berduck.md",
+            "file": "PKD-2.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Berduck.md",
+                "file": "PKD-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,18 +82,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "Berduck.md",
-    "projects.md",
+    "PKD-2.md",
+    "pkd_head.md",
+    "organicbooks.net.md",
     "Novice.md",
-    "technologies for the automation of language.md",
-    "Untitled 1.md",
-    "INTERGALACTIC RAILROAD.md",
-    "Untitled.md",
     "notebook.md",
-    "homepage design.md",
-    "JAMstack.md"
+    "JAMstack.md",
+    "Glitchcraft.md",
+    "Robot Face.md",
+    "Ritual for Becoming-Superintelligence.md",
+    "VUCA-2.md"
   ]
 }

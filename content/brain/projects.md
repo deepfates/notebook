@@ -10,6 +10,7 @@ title: "Projects"
 ##  Bots
 - [[Berduck]]
 - [[ars_vuca]] 
+- [[VUCA-2]]
 - [[pkd_head]] 
 - [[Deleuze Explainer]] 
 - [[Smooth Spaces]]

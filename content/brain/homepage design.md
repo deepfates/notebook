@@ -4,7 +4,7 @@ modified: 2020-11-03T16:46:53-07:00
 title: "Homepage design"
 ---
 
-My new homepage is at [deepfates.com](https://deepfates.com). It's built with Gatsby, the React-based static site generator I like to use.
+My new homepage is at [deepfates.com](https://deepfates.com). Its design is an homage to the Pelican Books covers of the 1960s, inspired by their geometric fonts and golden-ratio layout. 
 
 ## Engineering
 
@@ -12,6 +12,6 @@ My new homepage is at [deepfates.com](https://deepfates.com). It's built with Ga
 
 
 ## Design
-- A grotesk font, like the Operating Manual for Spaceship Earth, for headers.
- - Open source Manrope
+- A grotesk font called Manrope (open-source) for the headings. It's as close as I can find to Aksidenz Grotesk for the web.
+- Uses CSS3 Grid to create full-height layouts on any screen
 
