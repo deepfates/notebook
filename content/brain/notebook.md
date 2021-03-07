@@ -9,7 +9,7 @@ _Living notebook_, like a wizard would have: a book of arcane knowledge and expe
 
 Some launching-off points:
 
-- My occasional newsletter about interfaces and AI is at [[Robot Face]]
-- I trained an AI on a thousand books of magic and had it write a book of its own, [[Glitchcraft]]
-- I curate soundtracks for movies that don't exist, hear my [[Invisible Movies]] on Spotify
-- 
+- My occasional newsletter about interfaces and AI is at [[Robot Face]].
+- I trained an AI on a thousand books of magic and had it write a book of its own: [[Glitchcraft]].
+- I curate soundtracks for movies that don't exist, hear my [[Invisible Movies]] on Spotify.
+- I shortened a famous book to create [[Finite Jest]]
