@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Robot Face.md",
+            "file": "SIGNAL.md",
             "mode": "source"
           }
         }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notebook.md",
+            "file": "Finite Jest.md",
             "mode": "source"
           }
         }
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notebook.md",
+                "file": "Finite Jest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Untitled 2.md",
     "notebook.md",
+    "SIGNAL.md",
     "Robot Face.md",
     "pkd_head.md",
     "PKD-2.md",
     "VUCA-2.md",
     "VUCA Appears.md",
     "projects.md",
-    "Glitchcraft.md",
-    "listening-agency.md",
-    "Smooth Spaces.md"
+    "Glitchcraft.md"
   ]
 }
