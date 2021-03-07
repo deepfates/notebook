@@ -1,11 +1,11 @@
 ---
 title: "listening.agency"
-aliases: ["listening.agency"]
+aliases: ["listening.agency", "listening-agency"]
 ---
 
 *A small webapp I designed for listening to podcastsand music at the same time. Status: inactive.*
 
-SPACE PIRATE RADIO, at https://listening.agency, is a niche podcast player and vibe machine.
+SPACE PIRATE RADIO, formerly at https://listening.agency, is a niche podcast player and vibe machine.
 
 It was sparked by the realization that I spent as much time looking for podcasts to listen to as actually listening to them. Despite all this surfing and swiping, eventually I end up putting the same dozen podcasts on my playlist every week, so I thought, why not just make a site that plays through them automatically?
 

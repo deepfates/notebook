@@ -17,6 +17,16 @@ const IndexGrid = styled.div`
   grid-template-rows: auto 6.35vh;
   width: 100%;
   height: 100%;
+
+    article > p:first-child:first-letter {
+      float: left;
+      font-family: Manrope;
+      font-size: 4rem;
+      line-height: 1;
+      padding-top: .375rem;
+      padding-right: 8px;
+      padding-left: 3px;
+      font-style: normal;
 `
 
 const PreTitle = styled.div`
@@ -54,7 +64,7 @@ const Artwork = styled.div`
 const PreContent = styled.div`
   grid-area: pre-content;
 `
-const Content = styled.div`
+const Content = styled.article`
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -85,9 +95,9 @@ const IndexPage = () => (
       <PreContent />
       <Content>
         <p>
-          I'm Max, aka <strong>@deepfates</strong>. I'm a technologist and
-          entrepreneur in Albuquerque, New Mexico. My background is in
-          whole-systems design and long-term thinking.
+          Welcome to my website. I'm Max, aka <strong>@deepfates</strong>. I'm a
+          technologist and entrepreneur in Albuquerque, New Mexico. My
+          background is in whole-systems design and long-term thinking.
         </p>
         <p>
           I founded <a href="https://organicbooks.net">Organic Books</a>, a

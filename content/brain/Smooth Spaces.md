@@ -2,7 +2,7 @@
 title: "Smooth Spaces"
 ---
 
-*A bot that retweets concepts from Deleuze and Guattari. Status: inactive. Find it at* [twitter.com/deterrnement](twitter.com/deterrnement).
+*A bot that retweets concepts from Deleuze and Guattari. Status: active. Find it at* [twitter.com/deterrnement](twitter.com/deterrnement).
 
 *Built with* [[Annoy]], [[textacy]] *and* [[tweepy]].
 

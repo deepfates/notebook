@@ -19,6 +19,7 @@ title: "Projects"
 - [[PKD-2]]
 - [[Bruce Greene]]
 - [[Doctor Whomst]]
+- [[post rats]]
 
 ## Programming
 - [[listening.agency]] -  space pirate radio

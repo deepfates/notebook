@@ -17,7 +17,7 @@ const BrainGrid = styled.div`
     font-family: Manrope;
     font-size: 4rem;
     line-height: 1;
-    padding-top: .3 75rem;
+    padding-top: .375rem;
     padding-right: 8px;
     padding-left: 3px;
     font-style: normal;
