@@ -100,7 +100,7 @@ const IndexPage = () => (
           background is in whole-systems design and long-term thinking.
         </p>
         <p>
-          I founded <a href="https://organicbooks.net">Organic Books</a>, a
+          I co-founded <a href="https://organicbooks.net">Organic Books</a>, a
           used-and-new bookstore in Nob Hill. I am a book person, in many senses
           of the term.
         </p>
