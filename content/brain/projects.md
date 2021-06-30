@@ -2,10 +2,11 @@
 title: "Projects"
 ---
 ## Writing
-- [[Robot Face]] (newsletter, active)
+- [[Robot Face]] (newsletter, inactive)
 - [[SCIOPS]]  (newsletter, inactive)
 - [[SIGNAL]]  (magic book, published)
 -  SIGNAL (novel, unpublished)
+-  [[Invisible Canon]], a data and books project
 
 ##  Bots
 - [[Berduck]]
@@ -30,6 +31,7 @@ title: "Projects"
 - [[forgot2vec]] (Forgotten Realms word vectors)
 - [[legiblate]] (genre judger)
 - [[wallpaper switching script]]
+
 
 ## Sounds
 - [[Invisible Movies]]

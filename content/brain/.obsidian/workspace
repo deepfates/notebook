@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e23003fc5203c019",
+        "id": "845d33b03129b0db",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Finite Jest.md",
+            "file": "Invisible Canon.md",
             "mode": "source"
           }
         }
@@ -69,10 +68,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finite Jest.md",
+                "file": "Invisible Canon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -85,16 +86,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "845d33b03129b0db",
   "lastOpenFiles": [
+    "Invisible Canon.md",
+    "Novice.md",
+    "projects.md",
+    "plantainproject.org.md",
+    "post rats.md",
     "Finite Jest.md",
     "notebook.md",
     "SIGNAL.md",
     "Invisible Movies.md",
-    "Untitled 2.md",
-    "Robot Face.md",
-    "pkd_head.md",
-    "PKD-2.md",
-    "VUCA-2.md",
-    "VUCA Appears.md"
+    "Untitled 2.md"
   ]
 }
