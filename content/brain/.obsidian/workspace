@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Invisible Canon.md",
+            "file": "projects.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "685406453ad02f53",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Invisible Canon.md",
+                "file": "projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "845d33b03129b0db",
   "lastOpenFiles": [
-    "Invisible Canon.md",
-    "Novice.md",
     "projects.md",
-    "plantainproject.org.md",
-    "post rats.md",
     "Finite Jest.md",
-    "notebook.md",
-    "SIGNAL.md",
-    "Invisible Movies.md",
-    "Untitled 2.md"
+    "digital garden.md",
+    "Smooth Spaces.md",
+    "Deleuze Explainer.md",
+    "debugging.png",
+    "Berduck.md",
+    "ars_vuca.md",
+    "Annoy.md",
+    "Invisible Canon.md"
   ]
 }
